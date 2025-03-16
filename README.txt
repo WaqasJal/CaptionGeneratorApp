@@ -19,16 +19,12 @@ project-root/
 
 HOW TO RUN:
 
----> Run the following command to create a new virtual environment if you haven't already: python -m venv venv
-1. Activate the virtual environment by running: .\venv\Scripts\activate in main folder
-   
+---> You can now install the dependencies specified in requirements.txt: pip install -r backend/requirements.txt
 
-2. With the virtual environment activated, you can now install the dependencies specified in requirements.txt: pip install -r backend/requirements.txt
-
-3. To run the Flask application, navigate to the backend directory and execute the following command:   cd backend
+---> To run the Flask application, navigate to the backend directory and execute the following command:   cd backend
                                                                                                         python app.py
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------   
 
 CHROME EXTENSION
 
@@ -68,4 +64,4 @@ Testing the Chrome Extension
 
 6. Check the browser console for logs and ensure captions are being sent to the Flask backend.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------   
