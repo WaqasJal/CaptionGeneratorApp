@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Live Caption Capturer",
+    "description": "Capture live captions from Chrome and send to server",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "webNavigation"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

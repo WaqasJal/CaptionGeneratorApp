@@ -1,0 +1,7 @@
+Flask
+Flask-CORS
+openai-whisper
+sounddevice
+numpy
+ffmpeg-python
+websockets
